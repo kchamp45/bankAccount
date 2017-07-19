@@ -1,38 +1,38 @@
-##Bank Account
+## _Bank Account_
 
-##Bank account project for Epicodus, 7/17/2017
+## _Bank account project for Epicodus, 7/17/2017_
 
 By Kimberly Lu
 
-###Description
+### _Description_
 
 Create a bank interface that creates an account with input for a name and an initial deposit.  It also allows the user to deposit and withdraw amounts.
 
-###Set Up
+### _Set Up_
 
-* _Clone the repository or open kchamp45.github.io/bankAccount_
-* _Open in your favorite editor or browser_
+* Clone the repository or open kchamp45.github.io/bankAccount
+* Open in your favorite editor or browser
 
-###Specifications
+### _Specifications_
 
-* _Program creates account and returns balance._
-  * _Input: Kim, $50
-  * _Output: $50
-* _Add deposit amount to balance.
-  * _Input: Deposit $10
-  * _Output: $60
-* _Subtract withdrawal amount from balance.
-  * _Input: Withdraw $20
-  * _Output: $40
-* _Reject actions that would create a negative balance.
-  * _Input: Withdraw $1000
-  * _Output: Error
+* Program creates account and returns balance.
+  * Input: Kim, $50
+  * Output: $50
+* Add deposit amount to balance.
+  * Input: Deposit $10
+  * Output: $60
+* Subtract withdrawal amount from balance.
+  * Input: Withdraw $20
+  * Output: $40
+* Reject actions that would create a negative balance.
+  * Input: Withdraw $1000
+  * Output: Error
 
-###Technologies Used
+### _Technologies Used_
 
-_HTML, CSS, Bootstrap, JavaScript, jQuery_
+HTML, CSS, Bootstrap, JavaScript, jQuery
 
-###License
+### License
 
 _MIT_
 
