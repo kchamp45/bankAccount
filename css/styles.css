@@ -1,0 +1,20 @@
+.well {
+  background-color: #cef4ff;
+}
+
+.show-balance {
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 400px;
+  padding-top: 0.5px;
+  margin-bottom: 200px;
+}
+
+.current-balance {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: white;
+  border-radius: 3px;
+  font-size: 20px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Bank With Us</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bank On It</h1>
+
+      <div class="register well">
+        <form id="bank-form">
+          <h2>Add a new account:</h2>
+          <div class="form-group">
+            <label for="account-name">Name:</label>
+            <input type="text" class="form-control" id="account-name">
+          </div>
+          <div class="form-group">
+            <label for="initial-deposit">Initial Deposit:</label>
+            <input type="number" class="form-control" id="initial-deposit">
+          </div>
+          <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+      </div>
+
+      <div class="alter-balance well">
+        <form id="deposit-balance">
+          <h2>Deposit or withdraw funds:</h2>
+          <div class="form-group">
+            <label for="deposit-amount">Deposit amount:</label>
+            <input type="number" class="form-control" id="deposit-amount">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form><br>
+        <form id="withdrawal-balance">
+          <div class="form-group">
+            <label for="withdraw-amount">Withdrawal amount:</label>
+            <input type="number" class="form-control" id="withdraw-amount">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+      <div class="show-balance well">
+        <h3>Current Balance</h3>
+        <div class="current-balance">
+          <!--Add balance here-->
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
